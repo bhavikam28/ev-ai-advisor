@@ -37,7 +37,7 @@ resource "aws_s3_bucket_public_access_block" "terraform_state" {
   restrict_public_buckets = true
 }
 
-# EV Data Bucket (for your CSV files)
+# EV Data Bucket (for the dataset)
 resource "aws_s3_bucket" "ev_data" {
   bucket = "${var.project_name}-data-${random_id.suffix.hex}"
 
