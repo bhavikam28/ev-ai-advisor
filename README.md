@@ -1,2 +1,2 @@
 # ev-ai-advisor
-AI-powered Electric Vehicle recommendation system built with AWS
+EV AI Advisor is an intelligent Electric Vehicle recommendation system that helps users find the perfect EV based on their needs, budget, and driving patterns. Built with AWS cloud services and powered by AI, it provides personalized recommendations with real-time charging station data.
